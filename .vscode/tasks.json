@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin\\MSBuild.exe",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}/DiscordPresenceEditor/DiscordPresenceEditor.csproj",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+    ]
+}
